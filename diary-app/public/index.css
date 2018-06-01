@@ -1,0 +1,29 @@
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+#left {
+    left: 0;
+    background-color: #d6f4fb;
+}
+#right {
+    right: 0;
+    background-color: #F7DFE6;
+}
+
+
+.Person{
+    width:100%;
+}
+.Section{
+    width: 90%;
+    left: 5%;
+    //background-color: gray;
+    margin: 10px 0px 0px 0px;
+}
+.Section p{
+    margin-bottom: 0px;
+}
