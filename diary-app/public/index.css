@@ -27,3 +27,11 @@
 .Section p{
     margin-bottom: 0px;
 }
+
+.card-body input[type='radio']{
+    visibility: hidden;
+}
+.card-body input[type='radio']:checked + img {
+    border: 3px solid;
+    border-radius: 50%;
+}
